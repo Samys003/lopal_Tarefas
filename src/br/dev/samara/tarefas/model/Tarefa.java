@@ -11,6 +11,7 @@ public class Tarefa {
 	private LocalDateTime datainicial;
 	private LocalDateTime prazo;
 	private LocalDateTime dataConclusao;
+	//criado um enumerador para o status
 	private Status status;
 	private Funcionario responsavel;
 	
