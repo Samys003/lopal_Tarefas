@@ -15,6 +15,7 @@ import br.dev.samara.tarefas.model.Funcionario;
 import br.dev.samara.tarefas.model.Tarefa;
 import br.dev.samara.tarefas.ui.FrameFuncionario;
 import br.dev.samara.tarefas.ui.FrameListaFuncionario;
+import br.dev.samara.tarefas.ui.FrameSelecaoUsuario;
 import br.dev.samara.tarefas.utils.Utils;
 
 public class Main {
@@ -27,62 +28,13 @@ public class Main {
 		
 	
 		
-		new FrameListaFuncionario();
-//		new FrameFuncionario();
+		//new FrameListaFuncionario();
 		
-//		//criação de lista 
-//		List<String> frutas = new ArrayList<>();
-//		List<Funcionario> funcionarios = new ArrayList<>();
-//		List<Double> numeros = new ArrayList<>();
-//		
-//		numeros.add(4.9);
-//		numeros.add(12.78);
-//		
-//		frutas.add("abacaxi");
-//		frutas.add("uva");
-//		frutas.add("morango");
-//		frutas.add("banana");
-//		frutas.add("laranja");
-//		frutas.add("mexirica");
-//		frutas.add("carambola");
-//		
-//		
-//		Funcionario funcionario = new Funcionario();
-//		funcionario.setCodigo(Utils.gerarUUID());
-//		funcionario.setEmail("Juliamariadosanjos@gmail.com");
-//		funcionario.setMatricula("28927509");
-//		funcionario.setNome("Julia Maria");
-//		
-//		Funcionario funcionario2 = new Funcionario();
-//		funcionario2.setCodigo(Utils.gerarUUID());
-//		funcionario2.setEmail("matheuscarvalho@gmail.com");
-//		funcionario2.setMatricula("28927509");
-//		funcionario2.setNome("Matheus Carvalho");
-//		
-//		Funcionario funcionario3 = new Funcionario();
-//		funcionario3.setCodigo(Utils.gerarUUID());
-//		funcionario3.setEmail("Ceciliagatinha123@gmail.com");
-//		funcionario3.setMatricula("253625874");
-//		funcionario3.setNome("Maria cecilia");
-//		
-//		//adição de funcionarios sem necessidade do funcionario.add (um a um).
-//		funcionarios.addAll(List.of(funcionario, funcionario2, funcionario3));
-//		
-//		System.out.println(frutas);
-//		System.out.println(funcionarios);
-//		
-//		//para cada funcionario passado, guarde na variavel f e exiba
-//		for (Funcionario f : funcionarios) {
-//			System.out.println(f.getNome()+ " - " + f.getEmail());
-//			
-//		}
-//		
-//		
-//		FuncionarioDAO dao = new FuncionarioDAO(funcionario);
-//		dao.gravar();
-//		
-//		System.out.println(funcionario.toString());
-//		
+		//new FrameFuncionario();
+		
+		new FrameSelecaoUsuario();
+	
+		
 
 	}
 	
