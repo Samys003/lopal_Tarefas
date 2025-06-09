@@ -10,6 +10,8 @@ import java.nio.Buffer;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JFrame;
+
 import br.dev.samara.tarefas.dao.FuncionarioDAO;
 import br.dev.samara.tarefas.model.Funcionario;
 import br.dev.samara.tarefas.model.Tarefa;
@@ -28,9 +30,9 @@ public class Main {
 		
 	
 		
-		//new FrameListaFuncionario();
+	//	new FrameListaFuncionario();
 		
-		//new FrameFuncionario();
+	//	new FrameFuncionario();
 		
 		new FrameSelecaoUsuario();
 	

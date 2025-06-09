@@ -35,7 +35,7 @@ public class FrameListaFuncionario {
 		JFrame tela = new JFrame();
 		tela.setTitle("Cadastro Funcionarios");
 		tela.setSize(600, 600);
-		tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		tela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		tela.setResizable(false);
 		tela.setLayout(null);
 		tela.setLocationRelativeTo(null);
