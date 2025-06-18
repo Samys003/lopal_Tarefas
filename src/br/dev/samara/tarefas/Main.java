@@ -24,7 +24,7 @@ public class Main {
 
 
 	//determinando o caminho que será utilizado
-	private static String path = "C:\\Users\\25132563\\Tarefa\\tarefas.txt";
+	private static String path = "C:\\Users\\samar\\eclipse\\tarefas.txt";
 	
 	public static void main(String[] args) {
 		

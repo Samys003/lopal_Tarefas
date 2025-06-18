@@ -3,6 +3,7 @@ package br.dev.samara.tarefas.ui;
 import java.awt.Container;
 import java.time.LocalDate;
 
+import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -30,7 +31,8 @@ public class FrameCadastroTarefa {
 	private JTextField txtPrazo;
 	
 	private JComboBox<Status> boxStatus;
-
+	private JButton btnsalvar;
+	private JButton btnsair;
 	
 	
 	public FrameCadastroTarefa() {
@@ -89,6 +91,13 @@ public class FrameCadastroTarefa {
 		boxStatus.addItem(Status.EM_ATRASO);		
 		boxStatus.setBounds(10, 380, 120, 30);
 		
+		btnsair = new JButton();
+		btnsair.setText("Sair ");
+		btnsair.setBounds(20, 400, 100, 10);
+		
+		btnsalvar = new JButton();
+		
+		
 		Container painel = tela.getContentPane();
 		
 		painel.add(lblCodigo);
@@ -102,7 +111,7 @@ public class FrameCadastroTarefa {
 		painel.add(lblDataFinal);
 		painel.add(txtDataFinal);
 		painel.add(boxStatus);
-		
+		painel.add(btnsair);
 		
 		tela.setVisible(true);
 		

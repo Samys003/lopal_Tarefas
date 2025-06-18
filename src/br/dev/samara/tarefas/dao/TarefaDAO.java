@@ -36,6 +36,7 @@ public class TarefaDAO {
 	public List<Tarefa> showTasks(){
 		
 		List<Tarefa> tarefas = new ArrayList<>();
+		FuncionarioDAO funcionario = new FuncionarioDAO(null);
 		
 		try {
 			BufferedReader br = ff.getBufferedReaderTarefas();
@@ -51,14 +52,17 @@ public class TarefaDAO {
 		
 		Tarefa t = new Tarefa();
 		t.setTitulo(tarefa[0]);
-			
+		t.setDescricao(tarefa[1]);
+		t.setResponsavel(funcionario.reconstruirfuncionario(tarefa[7],tarefa[8],tarefa[9],tarefa[10]));
+		
+		tarefas.add(t);
 			
 		} while	(linha !=null);
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println(e.getMessage());
 		}
-		
+		return tarefas;
 	}
 
 }

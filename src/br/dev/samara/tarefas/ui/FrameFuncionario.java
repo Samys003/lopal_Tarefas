@@ -64,7 +64,7 @@ public class FrameFuncionario {
 		txtTelefone.setBounds(20, 180, 200, 30);
 		
 		labelEmail = new JLabel("E-mail: ");
-		labelEmail.setBounds(20, 245, 300, 30);
+		labelEmail.setBounds(20, 215, 300, 30);
 		txtEmail = new JTextField();
 		txtEmail.setBounds(20, 245, 300, 30);
 		

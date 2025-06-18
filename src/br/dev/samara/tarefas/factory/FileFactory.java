@@ -17,8 +17,12 @@ public class FileFactory {
 	private FileReader fr;
 	private BufferedReader br;
 	
-	private String pathFuncionarios = "C:\\Users\\25132563\\Tarefa\\funcionarios.csv";
-	private String pathTarefas = "C:\\Users\\25132563\\Tarefa\\tarefas.csv";
+	 //"C:\\Users\\25132563\\Tarefa\\funcionarios.csv";
+	//"C:\\Users\\25132563\\Tarefa\\tarefas.csv";
+	
+	private String pathFuncionarios = "C:\\Users\\samar\\eclipse\\funcionarios.txt";
+	private String pathTarefas = "C:\\Users\\samar\\eclipse\\tarefas.txt";
+	
 	
 	
 	public BufferedReader getBufferedReader() throws FileNotFoundException, IOException{
